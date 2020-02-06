@@ -1,0 +1,40 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css); 
+
+body, table, div, p{ font-family: 'Noto sans KR'; }
+
+.underline{
+    margin-left:100px;
+    text-decoration : none;
+    border-bottom : 2px solid #ED6D2F;
+}
+
+.search-table{
+    margin-left:30px;
+    margin-top:40px;
+    margin-bottom:40px;
+    text-align: center;
+    width: 40%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    background-color: white;
+}
+.search-table-tr{
+    width: 100%;
+    border: 1px solid #444444; 
+    padding: 10px;
+}
+.ordinary-text{
+    margin-left:30px;
+}
+.br{
+    margin-top:100px;
+}
+
+
+.test{
+    display:inline-block;
+    margin-left: 120px;
+    text-align: center;
+}

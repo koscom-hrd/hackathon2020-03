@@ -1,0 +1,124 @@
+.Logo {
+    display:block;
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 50%;
+  }
+
+
+.cursor{
+    cursor: pointer;
+    display:inline;
+}
+.outer{
+    margin-top: -100px;
+    width:100%;
+    text-align: center;
+}
+.search{
+    width:40%;
+    height: 40px;
+    border: 1px black lightgray;
+    border-radius: 4px;
+    display: inline-block;
+}
+.button{
+    margin-left:10px;
+    display: inline-block;
+}
+.search-icon{
+  opacity: 0.3;
+}
+
+
+.inline {  
+    margin-left: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .inline .form-check {
+    width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+    .inline label {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 0;
+    }
+    .inline .form-group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 0;
+    }
+    .inline .form-control {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+    }
+    .inline .form-control-plaintext {
+      display: inline-block;
+    }
+    .inline .input-group,
+    .inline .custom-select {
+      width: auto;
+    }
+    .inline .form-check {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: auto;
+      padding-left: 0;
+    }
+    .inline .form-check-input {
+      position: relative;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      margin-top: 0;
+      margin-right: 0.25rem;
+      margin-left: 0;
+    }
+    .inline .custom-control {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .inline .custom-control-label {
+      margin-bottom: 0;
+    }
+  }

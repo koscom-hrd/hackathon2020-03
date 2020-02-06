@@ -1,0 +1,20 @@
+.total{
+  position: fixed;
+  z-index:3;
+  top:0;
+  left:0;
+  right:0;
+}
+.navbar-bg{
+  background-color: #ED6D2F;
+}
+.navbar-logo-text{
+  color: white;
+  font-size: 300%;
+  display: inline;
+  margin-left:30px;
+}
+.navbar-logo-text:hover{
+  color:black;
+  text-decoration: none;
+}
